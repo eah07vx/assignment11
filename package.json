@@ -1,0 +1,14 @@
+{
+    "name": "a11Hobby",
+    "version": "1.0.0",
+    "description": "simple web app interacting with mySql",
+    "main": "index.js",
+    "author": "Chris Richmond",
+    "contributors": [],
+    "dependencies": {
+        "body-parser": "^1.17.1",
+        "express": "^4.15.2",
+        "knex": "^0.13.0",
+        "mysql": "^2.15.0"
+    }
+}

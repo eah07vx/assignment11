@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+  <title>Assignment 11 Problem#2</title>
+</head>
+<body>
+  <h1>Chris Richmond</h1>
+  <p>This page came from Web Server#2:  13.91.110.206</p>  
+  <script language="JavaScript">
+    currDate=new Date().toLocaleString()
+    document.write ("Today's date is "+ currDate)
+  </script>
+  <form class="addHobby" name="addHobby">
+    <h1>Add a Person and Their Hobby</h1>
+    <input type="text" class="firstname" placeholder="firstName">
+    <input type="text" class="lastname" placeholder="lastName">
+    <input type="text" class="hobby" placeholder="hobby">
+    <input type="submit" value="Add Hobby">
+  </form>
+  <form class="findHobby">
+    <h1>Find a Person by First Name</h1>
+    <input type="text" class="firstname" placeholder="firstName">
+    <input type="submit" value="Find Hobby">
+  </form>  
+  <table id="excelDataTable" border="1">
+  </table>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
